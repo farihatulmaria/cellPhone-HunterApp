@@ -1,0 +1,73 @@
+/*========================
+        Default CSS
+==========================*/
+
+body {
+  padding: 0;
+  margin: 10px 0;
+}
+a {
+  color: #000;
+  text-decoration: none;
+  transition: 0.5s;
+}
+img {
+  width: 300px !important;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+/*========================
+        Main CSS
+==========================*/
+.title a:hover {
+  color: #000;
+}
+.Phone-img {
+  width: 350px !important;
+}
+.modal-header {
+  border-bottom: none;
+}
+.feature-list li,
+.others-list li {
+  border: 1px solid rgba(192, 204, 218, 0.1);
+  background: linear-gradient(
+    90deg,
+    rgba(192, 204, 218, 0.1) 0%,
+    rgba(192, 204, 218, 0.3) 50.38%,
+    rgba(192, 204, 218, 0.1) 100%
+  );
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 15px;
+}
+.logo {
+  background: rgb(17, 63, 103);
+  background: linear-gradient(
+    76deg,
+    rgba(26, 55, 77, 1) 12%,
+    rgba(64, 104, 130, 1) 100%
+  );
+  background-size: 100%;
+  background-repeat: repeat;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+.btn-gradient {
+  background: linear-gradient(
+    76deg,
+    rgba(26, 55, 77, 1) 12%,
+    rgba(64, 104, 130, 1) 100%
+  );
+  color: #fff;
+}
+.btn-gradient:hover {
+  color: #fff;
+}
